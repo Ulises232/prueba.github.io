@@ -1,0 +1,523 @@
+@media screen and (max-width: 1268px){
+  .opcionMenuPrincipal{
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 1075px){
+ 
+
+  .paginaImagen{
+    width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  }
+
+ }
+
+ @media screen and (max-width: 950px){
+
+
+  .paginaImagen{
+  width: 14px;
+  height: 14px;
+  border-radius: 2px;
+  }
+
+ }
+ @media screen and (max-width: 425px){
+  .paginaImagen{
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+  }  
+ }
+
+ @media screen and (max-width: 884px){
+
+ }
+ 
+ @media screen and (max-width: 768px){
+  .opcionMenuPrincipal{
+    font-size: 1rem;
+  }
+ }
+
+ @media screen and (max-width: 695px){
+  .opcionMenuPrincipal{
+    font-size: 0.45rem;
+  }
+ }
+
+
+
+
+@media screen and (max-width: 507px){
+  .opcionMenuPrincipal{
+    display: none;
+    
+  }
+  #despegableMenu{
+    display: block;
+    position: absolute;
+    margin-left: 100%;
+    transition: 2s;
+  }
+  #menuPrincipal label{
+    display: block;
+  }
+ #imagenLogo{
+   
+   width: 25%;
+ }
+  
+  #btonMenu:checked ~ #despegableMenu{
+    margin-left: 80%;
+  }
+  .contenedor{
+    margin-top: 11.5% ;
+  }
+  #menuPrincipal{
+    margin-top: -11.5%;
+  }
+  
+}
+
+@media screen and (max-width: 1024px){
+  .informacionPag div{
+    width: 25%;
+
+  }
+  .informacionPag div h4{
+    font-size: 1.7rem;
+  }
+
+  .informacionPag div p{
+    font-size: 1.4rem;
+  }
+  .contenedor h1{
+    margin-top: -19%;
+  }
+
+  .informacionVacantes div a{
+    font-size: 2.3rem;
+  }
+
+  .informacionVacantes div p{
+    margin-top: 7%;
+    font-size: 1.2rem;
+  }
+
+  .inicioBlog h1{
+    margin-left: 8%;
+  }
+
+  .inicioBlog p{
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  .foroComentarios div img{
+    margin: 8% 0 0 37%;
+  }
+
+  #btonlogChec{
+    height: 40px;
+  }
+  
+  .loginCaja{
+    margin-top: .8%;
+    margin-left: -32%;
+  }
+  
+  .loginCaja:hover{
+    margin-left: 33%;
+  }
+
+  .inicioCurriculum h1{
+    margin-left: 15%;
+    margin-top: 25%;
+  }
+
+}
+
+  @media screen and (max-width: 768px){
+    .informacionPag{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 3% 0 0 0;
+    }
+
+    .informacionPag div{
+      width: 50%;
+      margin-left: 20%;
+      
+    }
+
+    .contenedor h4{
+      font-size: 3.5rem;
+      letter-spacing: .25rem;
+    }
+
+    .contenedor h1{
+      font-size: 1.6rem;
+      margin-top: -18%;
+    }
+
+  .informacionVacantes div{
+    width: 70%;
+  }
+
+    .informacionVacantes div a{
+      font-size: 2.5rem;
+    }
+    .informacionVacantes div p{
+      width: 65%;
+      margin-top: 10%;
+      margin-left: 2%;
+    }
+    .foroBlog h1{
+      font-size: 3rem;
+    }
+
+    #registrateTitulo{
+      font-size: 3rem;
+    }
+
+    .inicioBlog h1{
+      margin-left: 10%;
+      font-size: 3rem;
+    }
+  
+    .inicioBlog p{
+      width: 70%;
+      margin-left: 15%;
+      font-size: 1.2rem;
+    }
+
+    .foroComentarios div{
+      width: 60%;
+    }
+  
+    .foroComentarios div img{
+      margin: 8% 0 0 50%;
+    }
+
+    #btonlogChec{
+      height: 30px;
+      
+    }
+    
+    .loginCaja{
+      margin-top: 0;
+      margin-left: -32%;
+    }
+
+    .inicioCurriculum h1{
+      margin-left: 3%;
+      margin-top: 28%;
+      width: 100%;
+    }
+
+    .inicioCurriculum img{
+      height: 500px;
+    }
+  }
+
+    @media screen and (max-width: 425px){
+      .informacionPag{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 3% 0 0 0;
+      }
+
+      .informacionPag div{
+        width: 90%;
+        margin-left: 5%;
+        
+      }
+
+      .informacionPag div h4{
+        font-size: 1.5rem;
+      }
+      
+      .informacionPag div p{
+        font-size: 1.2rem;
+      }
+
+      .contenedor h4{
+        font-size: 1.5rem;
+        letter-spacing: .25rem;
+      }
+
+      .contenedor h1{
+        font-size: .8rem;
+        margin-top: -18%;
+      }
+
+      .informacionVacantes div{
+        width: 95%;
+        height: 240px;
+      }
+    
+      .informacionVacantes div a{
+        font-size: 1.58rem;
+      }
+      .informacionVacantes div p{
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 2%;
+        font-size: 1rem;
+        letter-spacing: .1rem;
+        
+        text-shadow: none;
+        background-color: rgba(0,0,0,0.3);
+      }
+      .comoConse h1{
+        font-size: 3rem;
+      }
+
+      .candidatos h1{
+        font-size: 3rem;
+      }
+
+      .imgCandi img{
+        width: 25%;
+      }
+
+      .inicioBlog h1{
+        margin-left: 8%;
+        font-size: 2rem;
+      }
+    
+      .inicioBlog p{
+        width: 70%;
+        margin-left: 15%;
+        font-size: 1.2rem;
+      }
+
+      .foroComentarios div{
+        width: 60%;
+      }
+    
+      .foroComentarios div img{
+        margin: 8% 0 0 50%;
+      }
+      .inicioBlog h1{
+        width: 93%;
+        margin-left: 8%;
+        font-size: 1.5rem;
+        margin-left: 4%;
+        margin-top: 10%;
+      }
+    
+      .inicioBlog p{
+        width: 85%;
+        margin-left: 15%;
+        font-size: 0.7rem;
+        margin-left: 8%;
+        text-align: justify;
+      }
+
+      .foroComentarios div{
+        width: 100%;
+      }
+    
+      .foroComentarios div img{
+        margin: 19% 0 0 79%;
+        width: 60px;
+        height: 60px;
+      }
+
+      .dejanosOpi h2{
+        font-size: 2.3rem;
+        max-width: 100%;
+        
+      }
+
+      .dejanosOpi form div{
+        width: 80%;
+      }
+
+      #btonlogChec{
+        display: none;
+      }
+      
+      .loginCaja{
+        margin-top: .8%;
+        margin-left: -60%;
+        width: 220px;
+        height: 420px;
+      }
+
+      .loginCaja:hover{
+        margin-top: .8%;
+        margin-left: 60%;
+      }
+
+      #btonlogChec1:checked ~ .loginCaja{
+        margin-left: 31%;
+        
+      }
+
+      .inicioCurriculum h1{
+        margin-left: 3%;
+        margin-top: 35%;
+        width: 100%;
+        font-size: 2.5rem;
+      }
+  
+      .inicioCurriculum img{
+        height: 300px;
+      }
+
+      .curriFormu h1{
+        font-size: 3rem;
+      }
+
+      .input-48{
+        width: 100%;
+      }
+
+      .ofertaTodo form{
+        width: 100%;
+      }
+      .ofertaTodo h2{
+        font-size: 3rem;
+      }
+
+      .svg-inline--fafa-twitter-squarefa-w-14, 
+      .svg-inline--fafa-facebookfa-w-16, 
+      .svg-inline--fafa-whatsappfa-w-14{
+        width: 8%;
+        color: #fff;
+        margin-left: 15%;
+        margin-top: 10px;
+      }
+
+      .pie a{
+        font-size: .8rem;
+      }
+    }
+
+      @media screen and (max-width: 320px){
+        .informacionPag{
+          display: grid;
+          grid-template-columns: 1fr ;
+          padding: 3% 0 0 0;
+        }
+
+        .informacionPag div{
+          width: 70%;
+          margin-left: 15%;
+          
+        }
+
+        .informacionPag div h4{
+          font-size: 1rem;
+        }
+        
+        .informacionPag div p{
+          font-size: 0.85rem;
+        }
+
+        .contenedor h4{
+          font-size: 1.2rem;
+          letter-spacing: .25rem;
+        }
+
+        .contenedor h1{
+          font-size: .65rem;
+          margin-top: -18%;
+        }
+        .comoConse h1{
+          font-size: 2rem;
+        }
+
+       
+        .inicioBlog h1{
+          width: 100%;
+          margin-left: 5%;
+          font-size: 1.2rem;
+          margin-left: 0;
+          margin-top: 5%;
+        }
+      
+        .inicioBlog p{
+          width: 85%;
+          margin-left: 7%;
+          font-size: 0.7rem;
+          margin-top: 22%;
+          text-align: justify;
+          letter-spacing: .1rem;
+        }
+  
+        .foroComentarios div{
+          width: 100%;
+          font-size: 1rem;
+        }
+      
+        .foroComentarios div img{
+          margin: 24% 0 0 75%;
+          width: 50px;
+          height: 50px;
+        }
+  
+        .dejanosOpi h2{
+          font-size: 2.3rem;
+          max-width: 100%;
+          
+        }
+  
+        .dejanosOpi form div{
+          width: 90%;
+        }
+        
+        #btonlogChec1{
+          margin-top: 10px;
+          margin-left: 5px;
+        }
+
+        .inicioCurriculum h1{
+          margin-left: 3%;
+          margin-top: 30%;
+          width: 100%;
+          font-size: 1.7rem;
+        }
+    
+        .inicioCurriculum img{
+          height: 200px;
+        }
+        .svg-inline--fafa-twitter-squarefa-w-14, 
+        .svg-inline--fafa-facebookfa-w-16, 
+        .svg-inline--fafa-whatsappfa-w-14{
+          width: 10%;
+          color: #fff;
+          margin-left: 10%;
+          margin-top: 10px;
+        }
+  
+        .pie a{
+          font-size: .8rem;
+        }
+
+      }
+
+        @media screen and (max-width: 480px){
+          .dejanosOpi form{
+            width: 100%;
+          }
+        }
+        @media screen and (max-width: 900px){
+          .curriFormu form{
+            width: 100%;
+          }
+        }
+
+        @media screen and (max-width: 400px){
+          #btonlogChec1{
+            margin-top: 10px;
+            margin-left: 5px;
+          }
+        }
+
